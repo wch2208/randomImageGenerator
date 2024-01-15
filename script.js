@@ -33,7 +33,7 @@ generateBtn.addEventListener("click", () => {
     const img = el("img");
     img.classList.add("rounded");
     img.src = imgUrl;
-
+    console.log(imgUrl);
     gridContainer.appendChild(img);
     count++;
     if (count === 10) {
