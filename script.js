@@ -29,7 +29,7 @@ generateBtn.addEventListener("click", () => {
   let count = 0;
   const generateImg = setInterval(() => {
     const randomNumber = Math.floor(Math.random() * 1000) + 1;
-    const imgUrl = `https://picsum.photos/${size}?random=${randomNumber}`;
+    const imgUrl = `https://picsum.photos/${size}`;
     const img = el("img");
     img.classList.add("rounded");
     img.src = imgUrl;
